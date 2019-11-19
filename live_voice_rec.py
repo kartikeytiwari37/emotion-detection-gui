@@ -84,7 +84,7 @@ print(livepredictions[0][0:3])
 
 import pandas as pd
 
-df = pd.read_csv('/home/amitkmaurya16/Downloads/Emotion/train_data.csv')
+df = pd.read_csv('/Downloads/Emotion/train_data.csv')
 df.head()
 df.isnull().sum() 
 df['sentiment'].value_counts()
